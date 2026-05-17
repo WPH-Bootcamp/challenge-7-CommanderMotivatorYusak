@@ -1,0 +1,8 @@
+[
+  {
+    "id": 1,
+    "task": "Belajar C++ Memory Management",
+    "isCompleted": true,
+    "priority": "high"
+  }
+]

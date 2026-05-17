@@ -1,0 +1,9 @@
+# Ignore downloaded dependencies folder
+node_modules/
+
+# Ignore compiled JavaScript output files (since you only need to submit your raw TypeScript source files)
+dist/
+
+# Ignore local environment or configuration files
+.env
+.DS_Store

@@ -6,3 +6,12 @@
 // TODO: Buat tipe untuk status To-Do (active/done)
 
 // TODO: Buat tipe untuk fungsi-fungsi yang akan digunakan
+
+export type Priority = 'low' | 'medium' | 'high';
+
+export interface Todo {
+  id: number;
+  task: string;
+  isCompleted: boolean;
+  priority: Priority;
+}
